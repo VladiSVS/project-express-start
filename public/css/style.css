@@ -1,0 +1,348 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+section {
+    padding: 0 10%;
+}
+
+footer {
+    padding: 0 10%;
+}
+
+header {
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+header > h1 > a {
+    color: #01996D;
+}
+
+header > nav > ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    padding: 0;
+}
+
+header > nav > ul > li {
+    list-style: none;
+}
+
+header > nav > ul > li:last-of-type {
+    width: 20vw;
+    text-align: right;
+}
+
+header > nav > ul > li:last-of-type > a:first-of-type {
+    margin-right: 5%;
+}
+
+
+.trialButton {
+    padding: 1em 2em;
+    background: #01996D;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#letAlivio {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("/img/BG.svg") center/cover no-repeat;
+}
+
+#letAlivio > div {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#letAlivio > div > h1 {
+    color:#01996D;
+    font-size: 5em;
+    margin: 0;
+}
+
+#letAlivio > div > p {
+    margin: 5% 0;
+    width: 35%;
+}
+
+.wayButton {
+    width: 15%;
+    text-align: center;
+    padding: 1em 2em;
+    background: #01996D;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#howItWorks {
+    padding: 10%;
+}
+
+#howItWorks > div:first-of-type {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20%;
+} 
+
+#howItWorks > div:first-of-type > div {
+    width: 50%;
+}
+
+#howItWorks > span {
+    font-size: 1.2em;
+}
+
+#howItWorks > div:first-of-type > div > h1 {
+    font-size: 3.5em;
+    color: #01996D;
+    margin: 0;
+}
+
+#howItWorks > div:last-of-type {
+    display: flex;
+    justify-content: space-between;
+}
+
+#howItWorks > div:last-of-type > article {
+    width: 30%;
+}
+
+#howItWorks > div:last-of-type > article:nth-of-type(2) {
+    margin-top: 20%;
+}
+
+#howItWorks > div:last-of-type > article:nth-of-type(3) {
+    margin-top: 5%;
+}
+
+#howItWorks > div:last-of-type > article > h1 {
+    margin-left: 4.5em;
+    font-size: 1.8em;
+}
+
+#howItWorks > div:last-of-type > article > span {
+    font-size: 10em;
+    margin-top: -0.5em;
+    position: absolute;
+    color: #01996D;
+    opacity: 0.2;
+}
+
+#howItWorks > div:last-of-type > article > p {
+    margin: 20% 0;
+}
+
+footer {
+    background: #245852;
+    color: #fff;
+    padding: 10% 10% 5% 10%;
+}
+
+footer > h1{
+    margin: 0 0 5% 0;
+}
+
+footer > h1 > a {
+    color: #fff;
+}
+
+footer > nav > ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer > nav > ul > li {
+    list-style: none;
+    margin: 0 0 5% 0;
+}
+
+footer > nav > ul > li > a {
+    color: #fff;
+} 
+
+#success {
+    height: 50vh;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+#success > div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+#success > div:first-of-type > a {
+    width: 40%;
+}
+
+#success > div:first-of-type > h1 {
+    color:#000;
+    font-size: 2em;
+    margin: 0;
+}
+
+#success > div:first-of-type > p {
+    margin: 7% 0;
+}
+
+#success > div:last-of-type {
+    background: url("/img/movie.svg") center/cover no-repeat;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#success > div:last-of-type > img {
+    cursor: pointer;
+}
+
+#solutions {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 5%;
+    padding: 10%;
+}
+
+#solutions > div:first-of-type {
+    background: #01996D;
+    border-radius: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    position: absolute;
+    width: 20em;
+    height: 20em;
+    left: 10%;
+    bottom: 10%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.card > span {
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 3em;
+    width: 10em;
+    margin: 0 auto;
+    margin-bottom: 6%;
+}
+
+.card > p {
+    margin: 0;
+    text-align: center;
+    margin: 4% 0;
+    font-size: 0.9em;
+}
+
+.card > h1 {
+    margin: 0;
+    font-size: 1em;
+    padding-left: 3em;
+}
+
+.card > ul {
+    padding: 0;
+    padding-left: 4em;
+}
+
+.card > ul > li {
+    font-size: 0.8em;
+}
+
+.card > div {
+    border-radius: 50%;
+    background-color: #01996D;
+    width: 4em;
+    height: 4em;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.card > div > img {
+    width: 100%;
+    margin-top: -1em;
+    object-fit: cover;
+    position: absolute;
+}
+
+#solutions > div > img {
+    width: 80%;
+}
+
+#solutions > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+#solutions > div:first-of-type {
+    align-items: center;
+}
+
+#solutions > div > span {
+    margin-bottom: 5%;
+}
+
+#solutions > div > h1 {
+    font-size: 3em;
+    color: #01996D;
+    margin: 0;
+}
+
+#solutions > div > p {
+    margin: 7% 0;
+}
+
+#solutions > div > a {
+    width: 30%;
+}
+
+#error {
+    padding: 10% 10%;
+    text-align: center;
+}
+
+#error > img {
+    width: 40%;
+}
+
+
+
+
